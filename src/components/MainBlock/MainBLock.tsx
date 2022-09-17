@@ -11,7 +11,7 @@ export const MainBLock = () => {
                     <h1>I am, Zimin Vladislav</h1>
                     <p>Frontend Developer</p>
                 </div>
-                <div className={styles.photoBlock}></div>
+                <div className={styles.photoBlock}>Photo</div>
             </div>
         </div>
     )

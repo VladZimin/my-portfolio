@@ -1,9 +1,11 @@
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(138, 43, 226, 0.35);
+    padding-bottom: 30px;
 }
 
 .container {
+    min-height: 100vh;
     align-items: center;
     justify-content: space-between;
 
@@ -11,10 +13,11 @@
 
 .textBlock {
     width: 300px;
-    background: rgba(170, 239, 183, 0.49);
+    background-color: rgba(146, 35, 248, 0.36);
+    margin-bottom: 15px;
 }
 .photoBlock {
     width: 300px;
-    height: 450px;
-    background: rgba(170, 239, 183, 0.49);
+    height: 420px;
+    background-color: rgba(146, 35, 248, 0.36);
 }

@@ -8,7 +8,7 @@ export const SkillsBlock: FC<{skills: SkillType[]}> = ({skills}) => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${containerStyle.container} ${styles.container}`}>
-                <h2>Skills</h2>
+                <h2 className={styles.title}>Skills</h2>
                 <div className={styles.skills}>
                     {
                         skills.map( s => <Skill key={s.id} title={s.title} description={s.description}/>)
